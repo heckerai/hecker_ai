@@ -1,0 +1,41 @@
+.wallet-adapter-dropdown {
+    .wallet-adapter-button-trigger {
+        background-color: transparent;
+    }
+
+    .wallet-adapter-button {
+        padding: 0;
+        
+        .wallet-adapter-button-start-icon {
+            display: none;
+        }
+        &:hover {
+            background-color: transparent !important;
+            text-decoration: underline;
+        }
+    }
+
+    .button-content {
+        font-family: ChicagoFLF;
+
+        img {
+            margin-left: 6px;
+            margin-bottom: -3px;
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wallet-adapter-button-trigger {
+        height: 40px;
+        font-size: 14px;
+        padding: 0 16px;
+    }
+
+    .button-content {
+        img {
+            height: 14px;
+        }
+    }
+}

@@ -3,8 +3,6 @@
 
 An advanced AI-powered platform for validating and generating code, built with modern web technologies and GPT-4. This project is divided into two main parts: a React-based frontend and an ExpressJS backend, both written in TypeScript.
 
-![Hecker AI](https://github.com/user-attachments/assets/placeholder-image-link)
-
 ## ✨ Features
 
 - **AI Code Validation**: Detects vulnerabilities and errors in your code with detailed explanations.
@@ -37,7 +35,6 @@ An advanced AI-powered platform for validating and generating code, built with m
 
 - **Frontend**: Responsive, dynamic UI for input and output interactions.
 - **Backend**: Robust API to handle requests and integrate with OpenAI's GPT-4.
-- **Security**: Validation focuses on detecting vulnerabilities like SQL injection, XSS, etc.
 
 ## 📁 Project Structure
 
